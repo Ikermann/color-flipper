@@ -1,0 +1,33 @@
+
+body {  display: flex;
+        justify-content: center;}
+
+#red { background: red;
+}
+
+#container {
+    display: grid;
+    text-align: center;
+}
+
+#green { background-color: green;
+}
+
+#blue { background-color: blue;
+}
+
+button {height: 100px;
+        width: 150px;
+        margin: 10px;
+        font-size: 1rem;
+        border: none;
+    } 
+
+button:hover {
+    cursor:pointer;
+}
+
+body.red, body.green, body.blue,
+body.red #red, body.green #green, body.blue #blue {
+    color: transparent;
+}
